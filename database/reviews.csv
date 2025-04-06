@@ -1,0 +1,26 @@
+id,game_id,reviewer,score,comment
+1,1,User1,8.0,Comentario 1 para Zelda
+2,1,User2,8.2,Comentario 2 para Zelda
+3,1,User3,8.4,Comentario 3 para Zelda
+4,1,User4,8.6,Comentario 4 para Zelda
+5,1,User5,8.8,Comentario 5 para Zelda
+6,2,User1,8.0,Comentario 1 para God of War
+7,2,User2,8.2,Comentario 2 para God of War
+8,2,User3,8.4,Comentario 3 para God of War
+9,2,User4,8.6,Comentario 4 para God of War
+10,2,User5,8.8,Comentario 5 para God of War
+11,3,User1,8.0,Comentario 1 para Elden Ring
+12,3,User2,8.2,Comentario 2 para Elden Ring
+13,3,User3,8.4,Comentario 3 para Elden Ring
+14,3,User4,8.6,Comentario 4 para Elden Ring
+15,3,User5,8.8,Comentario 5 para Elden Ring
+16,4,User1,8.0,Comentario 1 para Hades
+17,4,User2,8.2,Comentario 2 para Hades
+18,4,User3,8.4,Comentario 3 para Hades
+19,4,User4,8.6,Comentario 4 para Hades
+20,4,User5,8.8,Comentario 5 para Hades
+21,5,User1,8.0,Comentario 1 para Hollow Knight
+22,5,User2,8.2,Comentario 2 para Hollow Knight
+23,5,User3,8.4,Comentario 3 para Hollow Knight
+24,5,User4,8.6,Comentario 4 para Hollow Knight
+25,5,User5,8.8,Comentario 5 para Hollow Knight
