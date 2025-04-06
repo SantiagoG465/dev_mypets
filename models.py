@@ -1,17 +1,22 @@
-from pydantic import BaseModel, Field
 
-class Pet(BaseModel):
-    name:str = Field(..., min_length=3, max_length=20)
-    breed:str = Field(...,min_length=3,max_length=25)
-    birth:int = Field(...,gt=2020,lt=2025)
-    kind:str = Field(...,min_length=3,max_length=25)
+from pydantic import BaseModel
+from typing import Optional
 
-    #For more info for validations look at:
-    #https: // docs.pydantic.dev / latest / concepts / fields /
+class VideoGame(BaseModel):
+    id: int
+    title: str
+    genre: str
+    platform: str
+    rating: float
+    is_deleted: bool = False
 
 
-class PetResponse(BaseModel):
-    name:str
-    kind:str
 
+#
+class Review(BaseModel):
+    id: int
+    game_id: int
+    reviewer: str
+    score: float
+    comment: str
 
